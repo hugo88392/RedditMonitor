@@ -1,0 +1,34 @@
+# Secrets et configuration sensible
+.streamlit/secrets.toml
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Databases locales
+*.db
+*.sqlite
